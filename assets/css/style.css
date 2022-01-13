@@ -1,16 +1,16 @@
-/* Styling for the whole page (Universal Selector) */
+/* Universal Selector changing the sizings, padding and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Styling for anything within the body tag */
+/* Styling for the body, changing background colour */
 body {
     background-color: #d9dcd6;
 }
 
-/* Styling for the header and the navigation links within it*/
+/* Styling for the header and the navigation links within it, determining font, colors, padding, etc*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -45,18 +45,18 @@ header nav ul li {
 }
 /* End of header styling */
 
-/* Styling for any a (anchor) elements */
+/* Styling for any a (anchor) elements, determining colour */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Styling for any p (paragraph) elements */
+/* Styling for any p (paragraph) elements, changing font sizing */
 p {
     font-size: 16px;
 }
 
-/* Styling for the footer */
+/* Styling for the footer, determining alignment, padding, font family, sizing, etc. */
 footer {
     padding: 30px;
     clear: both;
@@ -69,7 +69,7 @@ footer h4 {
 }
 /* End of footer styling */
 
-/* Styling for any element with the "hero" class (in this case it's the jumbotron) */
+/* Styling for any element with the "hero" class (in this case it's the jumbotron) and its position, size, what image to use, etc */
 .hero {
     height: 800px;
     width: 100%;
